@@ -88,8 +88,7 @@ while True:
                 del phone_usage_start_times["Employee_0"]
             # رسم مربع أخضر حول الشخص الطبيعي
             cv2.rectangle(frame, (px1, py1), (px2, py2), (0, 255, 0), 2)
-            print(f"[{time.strftime('%H:%M:%S')}] الموظف لا يحمل هاتفاً.")
-            
+            print("تعديل من main")            
     cv2.imshow('نظام مراقبة الموظفين', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
