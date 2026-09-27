@@ -91,7 +91,7 @@ while True:
             print("تعديل من main")
             print("تعديل من conflict-test")
     cv2.imshow('نظام مراقبة الموظفين', frame)
-
+    print("تجربة Pull Request")
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
